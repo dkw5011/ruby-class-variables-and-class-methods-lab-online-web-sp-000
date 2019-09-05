@@ -29,4 +29,7 @@ def artist
   @artist
 end
 
+def self.artists
+  @@artists
+end
 end
