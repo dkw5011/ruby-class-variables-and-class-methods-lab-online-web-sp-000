@@ -40,7 +40,7 @@ def self.genres
 end
 
 def self.genre_count
-  @@genres.
+  @@genres.each_with_object
 end
 
 end
