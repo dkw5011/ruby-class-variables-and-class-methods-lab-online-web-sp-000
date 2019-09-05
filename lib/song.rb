@@ -44,4 +44,5 @@ def self.genre_count
   @@genres.each_with_object(Hash.new(0)) {|genres,counts| counts[genres] += 1}
 end
 
+
 end
